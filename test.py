@@ -6,5 +6,7 @@ y = np.sin(x)
 
 plt.plot(x, y, label='sin(x)')
 plt.title('sin(x)')
+plt.xlable('x')
+plt.ylable('y')
 plt.legend()
 plt.show()
