@@ -5,5 +5,6 @@ x = np.linspace(0, 2*np.pi)
 y = np.sin(x)
 
 plt.plot(x, y, label='sin(x)')
+plt.title('sin(x)')
 plt.legend()
 plt.show()
